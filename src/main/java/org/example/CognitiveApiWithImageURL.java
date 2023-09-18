@@ -19,13 +19,11 @@ public class CognitiveApiWithImageURL {
         HttpClient httpClient = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost("https://cxcvapis.cognitiveservices.azure.com/computervision/retrieval:vectorizeImage?api-version=2023-02-01-preview");
 
-        String key = "70915561d6bc420fb651ed7c871b9982";
-
         // Create a JSON request body with the image URL
         String jsonRequestBody = "{\"url\":\"https://picsum.photos/id/237/200/300\"}";
         StringEntity entity = new StringEntity(jsonRequestBody, "UTF-8");
         entity.setContentType("application/json");
-        httpPost.setHeader(new BasicHeader("Ocp-Apim-Subscription-Key", key));
+        httpPost.setHeader(new BasicHeader("Ocp-Apim-Subscription-Key", Constants.accessKey));
         httpPost.setEntity(entity);
 
         try {
