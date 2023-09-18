@@ -3,7 +3,7 @@ package org.example;
 public class Constants {
 
     // Azure Computer Vision Service Endpoint
-    public static String cognitiveApiImageStreamURL = "https://cxcvapis.cognitiveservices.azure.com/computervision/retrieval:vectorizeImage?overload=stream&api-version=2023-02-01-preview";
+    public static String cognitiveApiImageStreamURL = "https://{YOUR_COMPUTER_VISION_SERVICE_URL}/computervision/retrieval:vectorizeImage?overload=stream&api-version=2023-02-01-preview";
 
     // Animal (stuck in tar) Image path
     public static String animalImagePath = "src/main/java/org/example/media/PuppyInTar.jpg";
@@ -18,7 +18,7 @@ public class Constants {
     public static String firstAIDSuggestionModel = "src/main/java/org/example/model/FirstAidSuggestions.json";
 
     // Access Key to Access Azure Computer Vision API
-    public static String accessKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    public static String accessKey = "{YOUR_ACCESS_KEY}";
 
     public static String animalImageURL = "https://picsum.photos/id/237/200/300";
 
