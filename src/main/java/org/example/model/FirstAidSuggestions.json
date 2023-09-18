@@ -1,0 +1,14 @@
+[
+  {
+    "diseaseName" : "paralyzed dog",
+    "firstAid" : "Do:\n1. Calm the pet. If necessary, cover with a blanket.\n2. Muzzle the pet in order to transport her to the veterinary hospital.\n3. Do Not Put Pressure on the Stomach.\n\nDon't:\n1. Do not assume pet won't bite.\n2. Do not encourage the pet to move about.\n3. Do not medicate pet with over-the-counter or prescription medications unless instructed to do so by a veterinarian.\n4. Do not delay evaluation by a veterinarian. This is an emergency."
+  },
+  {
+    "diseaseName" : "stuck in tar",
+    "firstAid" : "Do:\n1. Try to gently restrain pet using a leash or a rope.\n2. Wear protective gloves, old clothing to prevent the tar from sticking to you.\n3. If the tar is covering the dog's face or obstructing its airways, it's crucial to act quickly.\n4. Apply a neutral, baby oil, or vegetable oil to the tar-coated fur. \n\nDon't:\n1. Do not use any chemicals, solvents, or hot water to try to remove the tar.\n4. Do not delay evaluation by a veterinarian. This is an emergency."
+  },
+  {
+    "diseaseName" : "Mange",
+    "firstAid" : "Do:\n1. Keep the pet away from other dogs and pets.\n2. Offer small amounts of food and water.\n3. Wear disposable gloves when handling the dog to prevent potential transmission of mites to humans or other animals.\n\nDon't:\n1. Don't Approach If the Dog Appears Aggressive.\n4. Do not delay evaluation by a veterinarian."
+  }
+]
