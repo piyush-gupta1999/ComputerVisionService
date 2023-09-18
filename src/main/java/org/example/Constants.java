@@ -18,7 +18,7 @@ public class Constants {
     public static String firstAIDSuggestionModel = "src/main/java/org/example/model/FirstAidSuggestions.json";
 
     // Access Key to Access Azure Computer Vision API
-    public static String accessKey = "70915561d6bc420fb651ed7c871b9982";
+    public static String accessKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
     public static String animalImageURL = "https://picsum.photos/id/237/200/300";
 
